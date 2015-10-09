@@ -26,7 +26,7 @@ public class LoginActivity extends Activity {
             @Override
             public void onClick(View v) {
                 if (id.getText().toString().equals("test") && password.getText().toString().equals("test")) {
-                    Intent intent = new Intent(LoginActivity.this, MapsActivity.class);
+                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                     startActivity(intent);
                     finish();
                 } else {
